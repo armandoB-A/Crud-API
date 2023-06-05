@@ -102,7 +102,7 @@ export default class TutorialsList extends Component {
     }
 
     render() {
-        const {searchTitle, tutorials, currentTutorial, currentIndex} = this.state;
+        const { tutorials, currentTutorial, currentIndex} = this.state;
 
         return (
             <div className="list row">
